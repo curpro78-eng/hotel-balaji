@@ -937,6 +937,7 @@ img{display:block;max-width:100%}
     <button class="filter-btn" data-f="parotta">🍽️ Parotta</button>
     <button class="filter-btn" data-f="dosa">🥞 Dosa</button>
     <button class="filter-btn" data-f="nonveg">🍗 Non-Veg</button>
+   <button class="filter-btn" data-f="nonveg">🍪 Chapati</button>
     <button class="filter-btn" data-f="egg">🥚 Egg</button>
   </div>
 
@@ -949,8 +950,12 @@ img{display:block;max-width:100%}
     <div class="menu-grid" id="g-dosa"></div>
   </div>
   <div class="menu-cat" data-cat="nonveg">
-    <div class="cat-head rv"><div class="cat-ico">🍗</div><div><h3 class="cat-title">Non-Veg Items</h3><p class="cat-sub">அசைவ சிறப்பு வகைகள்</p></div></div>
+    <div class="cat-head rv"><div class="cat-ico">🍗</div><div><h3 class="cat-title">அசைவ சிறப்பு வகைகள்</h3><p class="cat-sub">Non-Veg Items</p></div></div>
     <div class="menu-grid" id="g-nonveg"></div>
+  </div>
+   <div class="menu-cat" data-cat="chapati">
+    <div class="cat-head rv"><div class="cat-ico">🍪</div><div><h3 class="cat-title">சப்பாத்தி</h3><p class="cat-sub">Chapati Itemsி</p></div></div>
+    <div class="menu-grid" id="g-chapati"></div>
   </div>
   <div class="menu-cat" data-cat="egg">
     <div class="cat-head rv"><div class="cat-ico">🥚</div><div><h3 class="cat-title">முட்டை வகைகள்</h3><p class="cat-sub">Egg Varieties</p></div></div>
@@ -966,7 +971,7 @@ img{display:block;max-width:100%}
       <div class="stat-label">Menu Items</div>
     </div>
     <div class="stat-item rv d2">
-      <div class="stat-num" data-count="5"><span class="count-el">5</span><span class="stat-suffix">+</span></div>
+      <div class="stat-num" data-count="5"><span class="count-el">11</span><span class="stat-suffix">+</span></div>
       <div class="stat-label">Years Serving</div>
     </div>
     <div class="stat-item rv d3">
@@ -1242,6 +1247,11 @@ const MENU={
     {ta:'மட்டன் சாப்ஸ்',en:'Mutton Chops',img:'Mutton-Chops.jpg'},
     {ta:'மட்டன் ஈரல்',en:'Mutton Eeral',img:'Mutton eeral.jpg'},
     {ta:'காடை ப்ரை',en:'Kaadai Fry',img:'kaadaifry.jpeg'},
+  ],
+   chapati:[
+    {ta:'சப்பாத்தி', en:'Chapati', img:'https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=120&h=120&fit=crop&crop=center'},
+    {ta:'முட்டை சப்பாத்தி', en:'Mutta Chapati', img:'https://images.unsplash.com/photo-1604152135912-04a022e23696?w=120&h=120&fit=crop&crop=center'},
+    {ta:'சப்பாத்தி கொத்து', en:'Chapati Kothu', img:'https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=120&h=120&fit=crop&crop=center'},
   ],
   egg:[
     {ta:'ஆஃபாயில்',en:'Half Boil',img:'Half Boil.jpg'},
